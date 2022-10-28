@@ -1,7 +1,7 @@
 fn main() {
-    fn fizz_buzz() {
+    fn fizz_buzz(num: i32) {
         let mut counter = 0;
-        for x in 0..301 {
+        for x in 0..num {
             if x % 3 == 0 && x % 5 == 0 {
                 println!("fizz buzz");
                 counter = counter + 1;
@@ -19,5 +19,5 @@ fn main() {
         println!("fizz buzz occurred {} times", counter)
     }
 
-    fizz_buzz()
+    fizz_buzz(301)
 }
