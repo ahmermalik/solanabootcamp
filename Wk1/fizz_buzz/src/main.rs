@@ -1,4 +1,5 @@
 fn main() {
+    println!("==== Welcome to Fizz Buzz! ====");
     fn fizz_buzz(num: i32) {
         let mut counter = 0;
         for x in 0..num {
